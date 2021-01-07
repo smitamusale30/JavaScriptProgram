@@ -1,6 +1,7 @@
-function DateInpute(date) {
-    this.date=new Date(date);
-    
+class DateInpute {
+    constructor(date) {
+        this.date = new Date(date);
+
+    }
 }
-const d=new DateInpute(1998-11-30);
-console.log(d);
+console.log(new DateInpute(`1998-08-10 `));
